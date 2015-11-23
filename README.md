@@ -119,6 +119,11 @@ namespace WindowsFormsApplication1
         {
             lblGage.Text = String.Concat("толщина линии:",(hcrLine.Value).ToString());
         }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            Close();
+        }
+        
         
     }     
 
